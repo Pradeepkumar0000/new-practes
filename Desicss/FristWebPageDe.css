@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    background-color: rgb(5, 37, 85);
+    text-align: center;
+}
+.nav a{
+    color: skyblue;
+}
+h1{
+    color: white;
+
+}
+
+.nev-bott a{
+    color: red;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 200px;
+    
+}
+footer{
+    background-color:rgb(5, 37, 85);
+    text-align: center;
+
+}
+footer p{
+    color: white;
+    text-align: start;
+}
+.foot a{
+    color: skyblue;
+}
