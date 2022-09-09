@@ -36,3 +36,7 @@ footer p{
 .foot a{
     color: skyblue;
 }
+
+.foot a:hover{
+    color: blue;
+}
