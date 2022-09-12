@@ -1,0 +1,89 @@
+body{
+    background-color: aliceblue;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+}
+.header-nav img{
+    width: 50px;
+    height: 50px;
+    /* padding: 20px; */
+}
+.header-nav a{
+    /* margin: 10px; */
+    text-decoration: none;
+    margin-top: -10px;
+    padding: 20px;
+    color:black;
+    outline: none;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.flex-container img{
+    width: 250px;
+    height: 400px;
+}
+.flex-container p{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+
+/* Second Card CSS */
+
+.flex-container-second{
+    display: flex;
+    flex-direction: row;
+}
+.second-back{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.box{
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 20px;
+
+}
+.box-second{
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.btn{
+    cursor: pointer;
+    padding: 15px;
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.Login h2{
+    text-align: center;
+}
+.user-box input{
+    display: block;
+    width: 290px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 10px;
+}
+.Login button{
+    background-color: red;
+    display: block;
+    width: 200px;
+    margin:15px auto;
+
+}
