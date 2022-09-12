@@ -78,12 +78,13 @@ body{
     padding: 10px;
     border: 2px solid black;
     margin: 11px auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .Login button{
     background-color: red;
     display: block;
     width: 200px;
     margin:15px auto;
+    border-radius: 20px;
 
 }
