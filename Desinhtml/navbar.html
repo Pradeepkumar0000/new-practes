@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
-    <script src="https://kit.fontawesome.com/64d8d669be.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/025697601c.js" crossorigin="anonymous"></script>
 </head>
 <style>
     .navbar{
@@ -37,11 +37,16 @@
             color: rgb(36, 36, 150);
             font-size: 35px;
         }
+        .list a:hover{
+            background-color: gray;
+            padding: 10px;
+        }
+
     
 </style>
 <body>
     <nav class="navbar">
-        <a href="#" class="logo"><i class="fa-brands fa-google"></i></a>
+        <a href="#" class="logo" aria-hidden="true" ><i class="fa-brands fa-google"></i></a>
         <div class="menu">
             <ul class="list">
                 <li><a href="#">Home</a></li>
